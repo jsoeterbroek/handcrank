@@ -1,13 +1,9 @@
 # Hand crank generator
 
 A printed **axial-flux hand crank generator**, built as the backup charger for an off-grid handheld
-computer. It is a **separate unit**: it does not fit inside the device, a shaft through the case wall
-would break the seal, and the reaction torque of cranking needs a second hand on the case.
+computer or mobile telephone.
 
 Output is a regulated 5 V on a USB-A pigtail, which charges the device through its sealed charge port.
-
-This repository was split out of the `pi_flux` case project; the crank was always a separate unit that
-merely lived in that repository. Its git history is preserved here.
 
 ![Crank assembly, exploded](renders/crank_assembly.png)
 
@@ -195,3 +191,8 @@ face ends up 0.6 mm from the stator.
 The printed frame, rotor/stator arrangement and gear step-up are this project's own CAD. The generator
 concept and winding approach were informed by the public build videos transcribed in `reference/yt/`
 (transcripts only; the videos themselves are not redistributed).
+
+## Use at your own risk
+
+This is a hobby project, published as-is, with no warranty of any kind. The case and the wiring information are design proposals, not certified hardware. You are responsible for your own build: check the fit of your parts, verify polarity and fusing before connecting lithium cells, and never leave a charging pack unattended. Anything you print, assemble or power up is at your own risk; the author accepts no liability for damage, injury, data loss or fire.
+
