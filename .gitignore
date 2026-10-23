@@ -1,0 +1,18 @@
+# Scratch / working files
+*~
+*.swp
+.DS_Store
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Downloaded reference videos (transcripts are tracked)
+reference/yt/*.webm
+reference/yt/*.mp4
+reference/yt/*.mkv
+
+# Slicer backups
+*.gcode
+*.3mf.bak

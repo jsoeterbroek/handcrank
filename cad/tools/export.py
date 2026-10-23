@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
-"""Export the hand crank generator parts to ../stl/crank as binary STL, centred on x/y and
+"""Export the hand crank generator parts to ../stl as binary STL, centred on x/y and
 dropped onto z=0 (print orientation as set in cad/export_crank.scad).
 
-  python3 cad/tools/export_crank.py                 # all crank parts
-  python3 cad/tools/export_crank.py base stator     # only some parts
+  python3 cad/tools/export.py                 # all parts
+  python3 cad/tools/export.py base stator     # only some parts
 
 Prints size, triangle count and the number of bad edges (0 = manifold, as slicers report).
 """
@@ -11,7 +11,7 @@ import subprocess, struct, sys, os, tempfile
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 CAD = os.path.dirname(HERE)
-OUT = os.path.join(os.path.dirname(CAD), 'stl', 'crank')
+OUT = os.path.join(os.path.dirname(CAD), 'stl')
 
 PARTS = {
     'base':           'crank_base',
