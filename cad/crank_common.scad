@@ -18,7 +18,7 @@ $fn = 48;
 
 // ---------------- alternator ----------------
 CR_MAG_N      = 8;          // magnets per rotor, alternating polarity
-CR_MAG_D      = 15.0;       // N52 disc, 15 x 3 mm
+CR_MAG_D      = 15.0;       // N48 disc, 15 x 3 mm
 CR_MAG_T      = 3.0;
 CR_MAG_R      = 42.0;       // magnet pitch radius
 CR_MAG_CLR    = 0.5;        // pocket clearance on the diameter

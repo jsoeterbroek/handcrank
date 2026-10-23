@@ -19,7 +19,7 @@ the clamp hubs, and the electronics tray under the base plate.*
 
 An **axial-flux alternator** with a 3:1 spur-gear step-up:
 
-- two **rotors** (the same printed disc, one flipped) each carry 8 N52 disc magnets on a 42 mm pitch
+- two **rotors** (the same printed disc, one flipped) each carry 8 N48 disc magnets on a 42 mm pitch
   radius, with alternating polarity around the circle;
 - a **stator** between them has 8 coil windows; the magnets sweep past, so each coil sees a reversing
   field;
@@ -93,7 +93,7 @@ so dimensions are changed in one place.
 
 | Item | Qty | Size / spec |
 |---|---|---|
-| N52 disc magnets | 16 | Ø15 × 3 mm |
+| N48 disc magnets | 16 (+1 spare) | Ø15 × 3 mm |
 | 608-2RS bearings | 2 | 8 × 22 × 7 mm |
 | Silver-steel shaft | 2 | Ø8 mm, one ground flat; rotor 55 mm, crank 32 mm |
 | M3 socket screws | 4 × 30 | Stack screws: top plate → spacer tube → stator lug → base post insert |
@@ -116,7 +116,7 @@ face ends up 0.6 mm from the stator.
 
 ### A. Rotor sub-assemblies (×2, mirror images)
 
-1. **Magnets.** Press the 16 N52 discs into the rotor pockets, alternating polarity around the circle.
+1. **Magnets.** Press the 16 N48 discs into the rotor pockets, alternating polarity around the circle.
    Find the poles with a stack test (two magnets attract on one side, repel on the other) and keep all
    the north faces on the same side of each disc. Glue them flush; the pockets are 3.3 mm deep for a
    3 mm magnet.
