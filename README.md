@@ -69,7 +69,7 @@ OpenSCAD 2021.01 or later. `crank_common.scad` holds every parameter (magnet pit
 thickness, gear module, bearing seats) and the helpers (involute profile, D-bore, rotor/stator modules),
 so dimensions are changed in one place.
 
-## Printed parts
+## Print parts
 
 | Part | Qty | Notes |
 |---|---|---|
@@ -87,7 +87,7 @@ so dimensions are changed in one place.
 | `crank_foot` | 4 | Screw-on feet with M3 nut traps; set the 20 mm bench clearance |
 | `crank_spacer` | 4 | Spacer tube Ø14 × 12.4 mm between a stator lug and the top plate |
 
-## Bought parts
+## Other parts
 
 | Item | Qty | Size / spec |
 |---|---|---|
